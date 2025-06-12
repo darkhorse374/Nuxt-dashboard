@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.2",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@heroicons/vue": "^2.1.1",
+    "@vueuse/core": "^10.9.0",
+    "chart.js": "^4.4.0",
+    "vue-chartjs": "^5.3.0",
+    "date-fns": "^3.0.6"
+  }
+}
